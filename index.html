@@ -11,37 +11,39 @@
   <section id="aside">
 	<div class="person">
   		<img id="foto" style="height: auto; width: 20%; border-radius:50%;" src="foto.jpg"/>
-  		<div id="name">Александр Полуянов</br><b>Backend</b> / <b>Frontend</b></div>
+  		<div id="name">Александр Полуянов</div>
 	</div>
   <div id="inf">
   <table id="contacts" style="border-collapse: collapse;">
     <tr> <td><img src="phone.png"/></td><td class="td">+7(996)-335-73-45</td></tr>
     <tr> <td><img src="email.png"/></td><td class="td">mailbox112000@mail.ru</td> </tr>
-    <tr> <td><img src="github.png"/></td><td class="td"><a href="https://github.com/codnik13" target="_blank">GitHub</a></td> </tr>
-	<tr> <td><img src="teleg.png"/></td><td class="td">@Takoyuser</td> </tr>
+    <tr> <td><img src="github.png"/></td><td class="td">
+		<a class="pers" href="https://github.com/code-2902" target="_blank">GitHub</a>
+	</td> </tr>
+	<tr> <td><img src="teleg.png"/></td><td class="td">@telekrann</td> </tr>
 	<tr> <td><img src="home.png"/></td><td class="td">Альметьевск, РФ</td> </tr>
   </table>
   </div>
   <ul>
-	<div style="width:100%; text-align:left; padding-left: 3%; margin-bottom:1vh;"><b>Навыки в IT</b></div>
-	<li>Python, Django, FastApi, Aiogram, SQLAlchemy</li>
-	<li>C, C++, Qt</li>
-	<li>JavaScript, jQuery, Ajax, React, HTML, CSS</li>
-	<li>Java, Spring Boot</li>
-	<li>SQL, SQLite, PostreSQL</li>
+	<div style="width:100%; text-align:left; padding-left: 3%; margin-bottom:1vh;"><b>Технический стек</b></div>
+	<li>C, C++, Qt, OpenGL</li>
+	<li>Python, Django, FastApi, Flask, Pandas, NumPy, Matplotlib, TensorFlow, PyTorch, Scikit-learn, BeautifulSoup, Selenium</li>
+	<li>SQL, PostreSQL, MySQL, Oracle DB</li>
+	<li>JavaScript, jQuery, Ajax, HTML, CSS</li>
+	<li>Excel, VBA, Google Sheets, Apps Script</li>
 	<li>Git, GitHub, GitLab, Docker</li>
-	<li>Excel, Google Sheets, AppScript</li>
-	<li>Windows, Powershell, Linux, Bash etc.</li>
+	<li>Clickhouse, Metabase, Tableau, PowerBI, BigQuery, A/B-тесты, Google Data Studio</li>
+	<li>Windows, Powershell, Linux, Bash</li>
   </ul>
   <ul>
 	<div style="width:100%; text-align:left; padding-left: 3%; margin-bottom:1vh;"><b>Образование</b></div>
-	<li>Высшее геологическое, КФУ</li>
-	<li>Software Developer, School 21</li>
-	<li>English Language Translator, КФУ</li>
+	<li>Высшее геологическое, Казанский Госудраственный Университет</li>
+	<li>Базовый курс программирования, Школа 21</li>
+	<li>Переводчик английского языка (дополнительно к высшему), КГУ</li>
   </ul>
   <form class="hide" id="form" action="https://api.web3forms.com/submit" method="POST">
     <input type="hidden" name="access_key" value="256551b1-57af-4aae-a717-ad105a4a4fe4">
-    <div>Ваш отзыв</b>
+    <div>Ваше сообщение</b>
     <input class="form" type="text" name="name" placeholder="имя" maxlength="40" required>
     <input class="form" type="email" name="email" placeholder="эл. почта" maxlength="40" required>
     <textarea class="form" rows="7" name="message" placeholder="текст сообщения" required></textarea>
@@ -52,50 +54,91 @@
   <section id="main" onchange="sizer();">
     <ul id="summary">
 		<div style="width:100%; text-align:left; padding-left: 3%; margin-bottom:1vh;"><b>Кратко о себе</b></div>
-		<li>
-			Свой путь в IT начинал, ещё работая в нефтедобывающей отрасли. Программировать учился самостоятельно и в Школе 21, 
-			практиковался на наиболее популярных языках: Python, JavaScript, C, C++, Java, приобрёл опыт разработки frontend, backend и fullstack приложений. 
-			Кроме того, выполнял проекты по оптимизации и автоматизации заполнения отчетности в Google-таблицах посредством платформы AppScript.
-		</li>
-		<li>Дополнительно, будучи фрилансером, занимался письменными переводами рус-анг/анг-рус, а также писал рефераты и статьи</li>
-		<li>
-			В IT индустрии интересуют такие направления как разработка клиент-серверных приложений, драйверов и прикладного ПО, 
-			аналитика данных, работа с СУБД и таблицами, машинное обучение и искусственный интеллект, графический дизайн, конструирование и верстка сайтов
-		</li>
+		<div>
+			Инструменты программирования и аналитики изучал самостоятельно и на специализированных курсах.
+			В Школе 21 акцент был на комплексный подход к осмыслению принципов программирования,
+			от основополагающих низкоуровневых компилируемых языков (C/C++) с постепенным переходом к
+			высокоуровневым интерпретируемым языкам (Python, Java, JavaScript).
+		</div>
+		<div>
+			В аналитике обладаю следующими навыками:
+			<li>
+				Работа с БД (извлечение, актуализация, группировка, агрегация, объединение, фильтрация, сортировка,
+				индексация данных)
+			</li>
+			<li>
+				Статистический анализ (разведочный, корреляционный, регрессионный, дисперсионный, факторный)
+				для выявления причинно-следственных связей
+			</li>
+			<li>
+				A/B-тестирование, в том числе определение статистической значимости, статистической вероятности / p-значения,
+				доверительных интервалов
+			</li>
+			<li>
+				ETL-процессы (выгрузка, трансформация и загрузка данных, работа с дата-фреймами на этапе трансформации)
+			</li>
+			<li>
+				Визуализация метрик (графики / временные ряды, воронки, диаграммы; миграция отчётов из
+				таблиц в инструменты визуализации)
+			</li>
+			<li>
+				Разработка и оптимизация скриптов для стандартизации и автоматизации процессов подготовки и рассылки отчётов
+			</li>
+			<li>
+				Парсинг статических и динамических сайтов с преобразованием данных в удобочитаемую форму
+				посредством специализированных библиотек Python и веб-инструментов
+			</li>
+		</div>
+		<div>
+			По заказу одной из компаний, написал серию скриптов на платформе Apps Script,
+			чтобы по нажатию кнопки автоматически переносить данные из определённых строк,
+			столбцов и ячеек разрозненных таблиц в единый отчёт, с фильтрацией повторов и соблюдением порядка отображения данных.
+			Это позволило заказчику сократить время и трудозатраты на подготовку отчётов.
+		</div>
 	</ul>
   <p id="pets">
     <div style="width:100%; text-align:left; padding-left: 3%;"><b>Примеры проектов</b></div>
 	<div class="pet">
-		<a class="pic" href="https://github.com/codnik13/Random-Citation-Python-Django.git"><img src="random.jpg"/></a>
-		<div class="caption">Приложение для рандомного показа цитат</div>
+		<a		
+			class="pic" href="https://drive.google.com/file/d/16bVDqD7WC0RE9n162jzkZRjwp00TpI0z/view?usp=sharing">
+			<img src="arrow.png"/><span class="caption">Парсинг JSON-данных в таблицу</span>
+		</a>
 	</div>
 	<div class="pet">
-		<a class="pic" href="https://github.com/codnik13/Cafe-Bot-Telegram-Aiogram-Python-RUS"><img src="pizza.jpg"/></a>
-		<div class="caption">Телеграм-бот для размещения заказов</div>
+		<a 
+			class="pic" href="https://drive.google.com/file/d/1Czr24QiNvZfIbVCh4aWzP6V5w3uNZtbS/view?usp=sharing">
+			<img src="arrow.png"/><div class="caption">Рандомное цитирование</div>
+		</a>
 	</div>
 	<div class="pet">
-		<a class="pic" href="https://github.com/codnik13/Tetris-C-Makefile"><img src="tetris.jpg"/></a>
-		<div class="caption">Игра, запускается в терминале</div>
+		<a 
+			class="pic" href="https://drive.google.com/file/d/1D0swmrbW2vEMFfoKP_xhP1b19IdixZ8j/view?usp=sharing">
+			<img src="arrow.png"/><div class="caption">Телеграм-бот</div>
+		</a>
 	</div>
 	<div class="pet">
-		<a class="pic" href="https://github.com/codnik13/Snake-Game-C-Makefile"><img src="snake.jpg"/></a>
-		<div class="caption">Игра, запускается в терминале</div>
+		<a
+			class="pic" href="https://drive.google.com/file/d/1b3BXYHKg4PurQ3YVXxrC8yM-otk4Qhhb/view?usp=sharing">
+			<img src="arrow.png"/><div class="caption">Консольная игра Тетрис</div>
+		</a>
 	</div>
 	<div class="pet">
-		<a class="pic" href="https://github.com/codnik13/Simple-Browser-Game-JS-HTML-CSS"><img src="game.jpg"/></a>
-		<div class="caption">Игра, запускается в браузере</div>
+		<a
+			class="pic" href="https://drive.google.com/file/d/1EetHjP4yI0yqZiY4ZigKUBMUPpRK1rw3/view?usp=sharing">
+			<img src="arrow.png"/><div class="caption">Консольная игра Змейка</div>
+		</a>
 	</div>
 	<div class="pet">
-		<a class="pic" href="https://github.com/codnik13/3D-Viewer-C-Makefile-Qt"><img src="viewer.jpg"/></a>
-		<div class="caption">Программа для просмотра и настройки изображений</div>
+		<a
+			class="pic" href="https://drive.google.com/file/d/1C6oiOdJoikKRzJ8ShOVPvHP1hzYFLsLM/view?usp=sharing">
+			<img src="arrow.png"/><div class="caption">Браузерная игра</div>
+		</a>
 	</div>
 	<div class="pet">
-		<a class="pic" href="https://github.com/codnik13/TicTacToe-Java-SpringBoot"><img src="tictac.jpg"/></a>
-		<div class="caption">Игра, запускается в браузере</div>
-	</div>
-	<div class="pet">
-		<a class="pic" href="https://github.com/codnik13/Rogue-Game-Java"><img src="rogue.jpg"/></a>
-		<div class="caption">Игра, запускается в терминале</div>
+		<a
+			class="pic" href="https://drive.google.com/file/d/1B5pkvy3Wf9UISlRHiEn_qG4Rf3-A599K/view?usp=sharing">
+			<img src="arrow.png"/><div class="caption">3D-просмотр изображений</div>
+		</a>
 	</div>
 </p>
   </section>

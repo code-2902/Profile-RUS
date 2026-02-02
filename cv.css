@@ -122,11 +122,18 @@ li{
 	font-style: italic;
 }
 .pic img{
-	border: 0.1vh solid crimson;
-	width: 12vh; height: auto; border-radius: 50%;
+	border: none;
+	width: 8vh; height: auto; border-radius: 50%;
 }
 .show{
 	display: none;
+}
+a:not(.pers){
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 @media only screen and (max-width: 768px){
   body{
